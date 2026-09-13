@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio de Chris Mapoua, développeur front-end">
+  <title>Chris Mapoua — Développeur Front-End</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Archivo:wght@400;500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <nav aria-label="Navigation principale">
+      <a href="index.html" class="logo">CM</a>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Accueil</a></li>
+        <li><a href="projects.html">Projets</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <button id="theme-toggle" aria-label="Changer le thème clair/sombre">🌙</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-identity">
+        <img
+          src="images/chris_photo.jpeg"
+          alt="Photo de Chris Mapoua"
+          class="hero-photo"
+        >
+        <div>
+          <h1>Chris Mapoua</h1>
+          <p class="role">Développeur Front-End</p>
+        </div>
+      </div>
+
+      <p class="intro">
+        Bonjour, je suis Chris, actuellement étudiant en 2ᵉ année de BTS SIO et développeur
+        front-end basé à Paris. Je conçois des applications web et des solutions numériques
+        en combinant développement, créativité et résolution de problèmes.
+      </p>
+
+      <ul class="socials">
+        <li>
+          <a href="https://linkedin.com/in/chris-mapoua" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3 9h4v12H3zM9 9h3.8v1.7h.05c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.78 2.65 4.78 6.1V21h-4v-5.7c0-1.36-.02-3.1-1.9-3.1-1.9 0-2.19 1.48-2.19 3v5.8H9z"/></svg>
+            LinkedIn
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/Chrix162" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.08 2.91.83.09-.65.35-1.08.63-1.33-2.22-.25-4.56-1.11-4.56-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02a9.6 9.6 0 0 1 5 0c1.91-1.3 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0 0 12 2Z"/></svg>
+            GitHub
+          </a>
+        </li>
+        <li>
+          <a href="mailto:cmapoua@gmail.com">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"/><rect x="2" y="4" width="20" height="16" rx="2"/></svg>
+            Email
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <!-- ===== Expérience / Formation ===== -->
+    <span class="section-eyebrow">§ 02 — Parcours</span>
+    <section id="experience" class="experience reveal">
+      <div class="tabs" role="tablist" aria-label="Parcours">
+        <button class="tab-btn active" data-tab="work" role="tab" aria-selected="true">Work</button>
+        <button class="tab-btn" data-tab="education" role="tab" aria-selected="false">Education</button>
+      </div>
+
+      <div class="tab-content" id="work" role="tabpanel">
+        <ul class="timeline">
+          <li class="entry">
+            <img class="entry-logo" src="images/logo_grace.png" alt="Logo Grace Concept Store">
+            <h3>Grace Concept Store</h3>
+            <div class="position">
+              <div class="role-row">
+                <span class="role">Développeur Web</span>
+                <span class="dates">Mai 2026 - Juin 2026</span>
+              </div>
+              <ul>
+                <li>Diagnostic et correction de bugs d'affichage et de problèmes liés au SEO et aux balises méta sur la boutique Shopify, permettant d'optimiser plus de 80 % des pages du site et d'améliorer la visibilité dans les moteurs de recherche.</li>
+                <li>Création et organisation de plus de cinq nouvelles collections de produits et refonte du logo de la marque Grace, renforçant ainsi l'identité visuelle de la boutique et la visibilité des produits.</li>
+                <li>Mise en place des campagnes d'e-mailing automatisées et des formulaires de capture sous forme de pop-ups, afin de professionnaliser les communications par e-mail de la marque ainsi que son processus d'acquisition de clients.</li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="tab-content hidden" id="education" role="tabpanel">
+        <ul class="timeline">
+          <li class="entry">
+            <img class="entry-logo" src="images/lycee_logo.png" alt="Logo Lycée Jules Ferry">
+            <h3>Lycée Jules Ferry</h3>
+            <div class="position">
+              <div class="role-row">
+                <span class="role">BTS SIO — option SLAM</span>
+                <span class="dates">2025 - 2027</span>
+              </div>
+              <ul>
+                <li>Formation en 2 ans préparant aux métiers du développement d'applications et de la gestion des systèmes d'information : conception d'interfaces, bases de données, langages orientés objet et méthodes de développement.</li>
+              </ul>
+            </div>
+          </li>
+          <li class="entry">
+            <h3>Baccalauréat STI2D</h3>
+            <div class="position">
+              <div class="role-row">
+                <span class="role">Sciences et Technologies de l'Industrie et du Développement Durable</span>
+                <span class="dates">Obtenu avec mention — 2025</span>
+              </div>
+              <ul>
+                <li>Formation générale aux sciences de l'ingénieur, alliant technologie, innovation et développement durable — bases en algorithmique, systèmes numériques et conception de projets techniques.</li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== Skills ===== -->
+    <span class="section-eyebrow">§ 03 — Stack</span>
+    <section id="skills" class="skills reveal">
+      <h2>Stack technique</h2>
+      <ul class="skills-grid">
+        <li><img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="React"><span>React</span></li>
+        <li><img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="JavaScript"><span>JavaScript</span></li>
+        <li><img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" alt="PHP"><span>PHP</span></li>
+        <li><img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" alt="C#"><span>C#</span></li>
+        <li><img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="CSS"><span>CSS</span></li>
+        <li><img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" alt="MySQL"><span>MySQL</span></li>
+        <li><img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="HTML5"><span>HTML5</span></li>
+        <li><img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="Git"><span>Git</span></li>
+        <li><img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dotnetcore/dotnetcore-original.svg" alt=".NET"><span>.NET</span></li>
+        <li><img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg" alt="Laravel"><span>Laravel</span></li>
+        <li><img class="skill-icon skill-icon--invert" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original.svg" alt="Vercel"><span>Vercel</span></li>
+      </ul>
+    </section>
+
+    <!-- ===== Projets épinglés ===== -->
+    <span class="section-eyebrow">§ 04 — Projets</span>
+    <section id="projects" class="pinned-projects reveal">
+      <h2>Projets</h2>
+      <div class="projects-grid">
+        <article class="project-card">
+          <h3><a href="projects.html#grace" class="card-link">graceconceptstore.com</a></h3>
+          <p>Optimisation SEO et balises meta sur une boutique Shopify e-commerce.</p>
+          <ul class="stack-badges">
+            <li>Shopify</li><li>SEO</li><li>JavaScript</li>
+          </ul>
+        </article>
+
+        <article class="project-card">
+          <h3><a href="projects.html#pomodoro" class="card-link">Pomodoro Timer</a></h3>
+          <p>Minuteur de productivité basé sur la technique Pomodoro, construit sans framework.</p>
+          <ul class="stack-badges">
+            <li>HTML</li><li>CSS</li><li>JavaScript</li>
+          </ul>
+        </article>
+
+        <article class="project-card">
+          <h3><a href="projects.html#split" class="card-link">Séparateur de frais entre amis</a></h3>
+          <p>Répartition automatique des dépenses de groupe — actuellement en développement.</p>
+          <ul class="stack-badges">
+            <li>React</li><li>En cours</li>
+          </ul>
+        </article>
+      </div>
+
+      <a href="projects.html" class="see-more">Voir tous les projets →</a>
+    </section>
+
+    <!-- ===== Contact (aperçu) ===== -->
+    <section id="contact" class="contact reveal">
+      <h2>Contact</h2>
+      <p>N'hésite pas à me contacter :</p>
+      <a href="contact.html">cmapoua@gmail.com — voir la page contact</a>
+    </section>
+  </main>
+
+  <footer>
+    <small><span id="copyright-year">2026</span> Chris Mapoua. Tous droits réservés.</small>
+    <ul class="socials">
+      <li><a href="https://linkedin.com/in/chris-mapoua" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">LinkedIn</a></li>
+      <li><a href="https://github.com/Chrix162" target="_blank" rel="noopener noreferrer" aria-label="GitHub">GitHub</a></li>
+      <li><a href="mailto:cmapoua@gmail.com" aria-label="Email">Email</a></li>
+    </ul>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
